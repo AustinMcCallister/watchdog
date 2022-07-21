@@ -14,12 +14,12 @@
   grid-column: 2 / -1;
   background-color: #D6D6D6;
   border-radius: 8px;
-  box-shadow: 0 0 7px -2px #212529e1;
+  box-shadow: 0 0 7px -2px #212529E1;
   height: min-content;
 }
 
 .tickets-header {
-  color: #212529e5;
+  color: #212529E5;
   font-size: 1.5em;
   font-weight: bold;
   padding: .5em 0 .25em 0;
@@ -37,8 +37,8 @@
 .ticket-card {
   display: flex;
   flex-direction: column;
-  color: #212529b0;
-  background-color: #f7f7f74b;
+  color: #212529B0;
+  background-color: #f7f7f74B;
   font-weight: bold;
   border-radius: 8px;
 }
@@ -85,13 +85,13 @@ hr {
   flex-grow: 1;
   background-color: #D6D6D6;
   border-radius: 8px;
-  box-shadow: 0 0 7px -2px #212529e1;
+  box-shadow: 0 0 7px -2px #212529E1;
   height: min-content;
 }
 
 .internal-message-header,
 .submit-ticket-header {
-  color: #212529e5;
+  color: #212529E5;
   font-size: 1.5em;
   font-weight: bold;
   padding: .5em 0 .25em 0;
@@ -115,8 +115,8 @@ hr {
 .submit-ticket-card {
   display: flex;
   flex-direction: column;
-  color: #212529e5;
-  background-color: #f7f7f74b;
+  color: #212529E5;
+  background-color: #F7F7F74B;
   font-weight: bold;
   border-radius: 8px;
 }
@@ -161,7 +161,7 @@ hr {
     padding: 1em 2em;
     cursor: pointer;
     &:hover:not(:active) {
-      background-color: #005272ea;
+      background-color: #005272EA;
     }
   }
 }
@@ -177,7 +177,7 @@ hr {
   }
   > input,
   > textarea {
-    color: #212529e5;
+    color: #212529E5;
     background-color: #F7F7F7;
     font-size: 1.1em;
     width: 100%;

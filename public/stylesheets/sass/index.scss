@@ -7,7 +7,7 @@
 
 .categories {
   display: grid;
-  grid-template: 1fr / repeat(auto-fit, minmax(500px, 1fr));
+  grid-template: 1fr / 1fr;
   justify-content: center;
   width: 100%;
   padding: 1em;
@@ -17,8 +17,8 @@
 .category-card {
   display: flex;
   flex-direction: column;
-  color: #212529b0;
-  background-color: #f7f7f74b;
+  color: #212529B0;
+  background-color: #F7F7F74B;
   font-weight: bold;
   border-radius: 8px;
 }
@@ -31,9 +31,7 @@
 
 .category-info {
   display: grid;
-  grid-auto-flow: column;
-  grid-template: repeat(24, 2em) / 1fr;
-  grid-auto-columns: 1fr;
+  grid-template: 1fr / repeat(auto-fit, minmax(220px, 1fr));
   margin: 1em;
   gap: .75em;
 }
@@ -47,12 +45,12 @@
   grid-column: 1 / 2;
   background-color: #D6D6D6;
   border-radius: 8px;
-  box-shadow: 0 0 7px -2px #212529e1;
+  box-shadow: 0 0 7px -2px #212529E1;
   height: min-content;
 }
 
 .status-header {
-  color: #212529e5;
+  color: #212529E5;
   font-size: 1.5em;
   font-weight: bold;
   padding: .5em 0 .25em 0;
@@ -84,7 +82,7 @@
   grid-column: 2 / -1;
   background-color: #D6D6D6;
   border-radius: 8px;
-  box-shadow: 0 0 7px -2px #212529e1;
+  box-shadow: 0 0 7px -2px #212529E1;
   height: min-content;
 }
 
@@ -96,7 +94,7 @@ hr {
 }
 
 .alerts-header {
-  color: #212529e5;
+  color: #212529E5;
   font-size: 1.5em;
   font-weight: bold;
   padding: .5em 0 .25em 0;
@@ -106,31 +104,31 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f7f7f74b;
+  background-color: #F7F7F74B;
   border-radius: 8px;
   margin: 1em;
   &:hover {
-    background-color: #f7f7f788;
+    background-color: #F7F7F788;
     cursor: pointer;
   }
 }
 
 .module-header {
-  color: #212529e5;
+  color: #212529E5;
   font-size: 1em;
   font-weight: bold;
   padding: 1em 0 .5em 0;
 }
 
 .module-text {
-  color: #212529dc;
+  color: #212529DC;
   padding: 0 1em 1em 1em;
 }
 
 .twitter-container {
   background-color: #D6D6D6;
   border-radius: 8px;
-  box-shadow: 0 0 7px -2px #212529e1;
+  box-shadow: 0 0 7px -2px #212529E1;
   height: auto;
   width: 100%;
   padding: 1em;
